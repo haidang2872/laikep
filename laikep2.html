@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+    let money0 = +prompt('nhap so tien goc: ');
+    let money = +prompt('nhap so tien goc: ');
+    let interest = +prompt('nhap lai suat: ');
+    let year = +prompt('nhap so nam: ');
+        for(var i=1; i<=year; i++){
+            money = money * (1 + interest/100)
+            tienlai = money0 - money
+        }
+    document.write('tien lai =' +tienlai)
+    document.write('</br>')
+    document.write('goc cong lai =' +money)
+    </script>
+</body>
+</html>

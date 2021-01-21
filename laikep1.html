@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let money = +prompt('nhap so tien: ');
+    let interest = +prompt('nhap lai suat: ');
+    let year = +prompt('nhap so nam: ');
+    gocconglai = money * Math.pow((interest/100 + 1), year)
+    tienlai = gocconglai - money
+    document.write('tien lai =' +tienlai)
+    document.write('</br>')
+    document.write('goc cong lai =' +gocconglai)
+</script>
+</html>  
